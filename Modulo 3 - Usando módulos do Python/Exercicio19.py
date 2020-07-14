@@ -1,4 +1,4 @@
-from random import randrange
+from random import choice
 
 primeiroAluno = str(input("Nome do primeiro aluno: "))
 segundoAluno = str(input("Nome do segundo aluno: "))
@@ -7,6 +7,6 @@ quartoAluno = str(input("Nome do quarto aluno: "))
 
 lista = [primeiroAluno, segundoAluno, terceiroAluno, quartoAluno]
 
-alunoEscolhido = lista[randrange(3)]
+alunoEscolhido = choice(lista)
 
 print(f"O aluno escolhido foi {alunoEscolhido}")
