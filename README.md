@@ -88,11 +88,9 @@ Entenda como funciona um Interpretador e veja como o Python funciona. Depois apr
 
 Agora chegou a hora de aprender os comandos básicos do Python e fazer os primeiros programas em Linguagem Python.
 
-- Comandos
+- Prática
 
     ```python
-    # print() ➡ Escreve algo na tela
-
     # Mensagens devem ficar entre aspas
     # Números não precisam ficar entre aspas
     # Se você colocar números como mensagens (strings), e somá-las elas irão se juntar
@@ -117,11 +115,13 @@ Agora chegou a hora de aprender os comandos básicos do Python e fazer os primei
     # Interatividade com o usuário
     # Para você criar uma interatividade com usuário você deve usar um comando, chamado "input"
 
-    # input() ➡ Pede para o usúario uma entrada (resposta)
-
     nome = input('Qual é seu nome? ') # Qual é seu nome? *Heitor*
     idade = input('Qual é sua idade? ') # Qual é sua idade? *13*
     peso = input('Qual é seu peso? ') # Qual é seu peso? *63.4*
 
     print(nome, idade, peso) # Heitor 13 63.4
     ```
+
+Para ver o que cada comando faz entre nessa página:
+
+[Comandos Python](https://github.com/HeitorAugustoLN/python-course/blob/master/COMANDOS.md)
