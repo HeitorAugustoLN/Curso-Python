@@ -1,1 +1,3 @@
-Curso-Python
+# Python course
+
+Made by @cursoemvideo
