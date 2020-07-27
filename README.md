@@ -1,5 +1,9 @@
 # Curso Python
 
+[Comandos Python](COMANDOS.md)
+
+[Exercícios Python](EXERCICIOS.md)
+
 # Mundo 1
 
 O primeiro mundo foi pensando de forma a apresentar a linguagem ao aluno, o professor irá introduzir a linguagem, seus conceitos, montar o primeiro programa e ensinar alguns recursos básicos.
@@ -122,6 +126,22 @@ Agora chegou a hora de aprender os comandos básicos do Python e fazer os primei
     print(nome, idade, peso) # Heitor 13 63.4
     ```
 
-Para ver o que cada comando faz entre nessa página:
+### [Aula 5 – Instalando o PyCharm e o QPython3](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/primeiros-passos-com-o-python/modulos/instalando-o-pycharm-e-o-qpython3/)
 
-[Comandos Python](https://github.com/HeitorAugustoLN/python-course/blob/master/COMANDOS.md)
+Nesta aula, veremos como instalar e configurar a IDE (Integrated Development Environment) Python chamada PyCharm no Windows, MacOS e Linux. Além disso, veremos como programar Python no Android, utilizando o QPython3.
+
+## Módulo 3 - Tratando dados e fazendo contas
+
+### [Aula 6 – Tipos Primitivos e Saída de Dados](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/tratando-dados-e-fazendo-contas/modulos/tipos-primitivos-e-saida-de-dados/)
+
+Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str(). Além disso, veremos como fazer as primeiras operações com a função print() do Python.
+
+### [Aula 7 – Operadores Aritméticos](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/tratando-dados-e-fazendo-contas/modulos/operadores-aritmeticos-2/)
+
+Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
+
+## Módulo 4 - Usando módulos no python
+
+### [Aula 8 – Utilizando Módulos](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/usando-modulos-do-python/modulos/utilizando-modulos/)
+
+Nessa aula, vamos aprender como utilizar módulos em Python utilizando os comandos import e from/import no Python. Veja como carregar bibliotecas de funções e utilizar vários recursos adicionais nos seus programas utilizando módulos built-in e módulos externos, oferecidos no Pypi.
