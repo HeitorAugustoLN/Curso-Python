@@ -1,4 +1,4 @@
 {
   "python.formatting.provider": "black",
-  "python.pythonPath": "D:\\Aplicativos\\Python\\python.exe"
+  "python.pythonPath": "/bin/python3"
 }
