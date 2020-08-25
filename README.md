@@ -145,3 +145,19 @@ Nessa aula, vamos aprender quais são os operadores aritméticos do Python e tam
 ### [Aula 8 – Utilizando Módulos](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/usando-modulos-do-python/modulos/utilizando-modulos/)
 
 Nessa aula, vamos aprender como utilizar módulos em Python utilizando os comandos import e from/import no Python. Veja como carregar bibliotecas de funções e utilizar vários recursos adicionais nos seus programas utilizando módulos built-in e módulos externos, oferecidos no Pypi.
+
+### [Aula 9 – Manipulando Texto](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/usando-modulos-do-python/modulos/manipulando-texto/)
+
+Nessa aula, vamos aprender operações com String no Python. As principais operações que vamos aprender são o Fatiamento de String, Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().
+
+## Módulo 5 - Condições em Python (if..else)
+
+### [Aula 10 – Condições (Parte 1)](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/condicoes-em-python-if-else/modulos/condicoes-parte-1/)
+
+Nessa aula, vamos aprender como utilizar estruturas condicionais simples e compostas nos seus programas em Python.
+
+## Módulo 6 - Adicionando Cores ao Python
+
+### [Aula 11 – Cores no Terminal](https://www.cursoemvideo.com/course/python-3-mundo-1/aulas/adicionando-cores-ao-python/modulos/cores-no-terminal/)
+
+Nessa aula, vamos aprender como utilizar os códigos de escape sequence ANSI para configurar cores para os seus programas em Python. Veja como utilizar o código \033[m com todas as suas principais possibilidades.
