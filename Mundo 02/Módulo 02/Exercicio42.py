@@ -10,4 +10,4 @@ if a < b + c and b < a + c and c < a + b:
     else:
         print("Os segmentos podem formar um triângulo isósceles")
 else:
-    print("Os segmentos não podem formar um triângulo") 
+    print("Os segmentos não podem formar um triângulo")
