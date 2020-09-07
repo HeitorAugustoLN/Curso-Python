@@ -7,7 +7,7 @@ menores = 0
 print("=" * 37)
 for pessoa in range(1, 8):
     nascimento = int(input(f"Em que ano a {pessoa}ª pessoa nasceu? "))
-    if anoAtual - nascimento >= 18:
+    if anoAtual - nascimento >= 21:
         maiores += 1
         pass
     else:
