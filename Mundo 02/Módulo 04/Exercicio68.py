@@ -2,43 +2,47 @@ from random import randint
 
 perdeu = False
 while True:
-	if perdeu == True:
-		break
-	else:
-		print("=-" * 35)
-		print("VAMOS JOGAR PAR OU IMPAR!")
-		print("=-" * 35)
+    if perdeu == True:
+        break
+    else:
+        print("=-" * 35)
+        print("VAMOS JOGAR PAR OU IMPAR!")
+        print("=-" * 35)
 
-		jogadorValor = int(input("Diga um valor: "))
-		jogadorPalpite = str(input("Par ou impar? [P/I] ")).strip().upper()[0]
-		computadorValor = randint(0, 10)
-		resultado = jogadorValor + computadorValor
+        jogadorValor = int(input("Diga um valor: "))
+        jogadorPalpite = str(input("Par ou impar? [P/I] ")).strip().upper()[0]
+        computadorValor = randint(0, 10)
+        resultado = jogadorValor + computadorValor
 
-		print("-" * 70)
-		
-		if resultado % 2 == 0:
-			print(f"Você jogou {jogadorValor} e o computador {computadorValor}. O total deu {resultado}, esse valor é PAR!")
+        print("-" * 70)
 
-			if jogadorPalpite == "P":
-				print("Você venceu!")
-				print("Vamos jogar novamente...")
+        if resultado % 2 == 0:
+            print(
+                f"Você jogou {jogadorValor} e o computador {computadorValor}. O total deu {resultado}, esse valor é PAR!"
+            )
 
-				perdeu = False
-			elif jogadorPalpite == "I":
-				print("Você perdeu!")
-				perdeu = True
-			else:
-				print("Esse valor não existe! Tente novamente...")
-		else:
-			print(f"Você jogou {jogadorValor} e o computador {computadorValor}. O total deu {resultado}, esse valor é IMPAR!")
+            if jogadorPalpite == "P":
+                print("Você venceu!")
+                print("Vamos jogar novamente...")
 
-			if jogadorPaplite == "I":
-				print("Você venceu!")
-				print("Vamos jogar novamente...")
+                perdeu = False
+            elif jogadorPalpite == "I":
+                print("Você perdeu!")
+                perdeu = True
+            else:
+                print("Esse valor não existe! Tente novamente...")
+        else:
+            print(
+                f"Você jogou {jogadorValor} e o computador {computadorValor}. O total deu {resultado}, esse valor é IMPAR!"
+            )
 
-				perdeu = False
-			elif jogadorPalpite == "P":
-				print("Você perdeu!")
-				perdeu = True
-			else:
-				print("Esse valor não existe! Tente novamente...")
+            if jogadorPalpite == "I":
+                print("Você venceu!")
+                print("Vamos jogar novamente...")
+
+                perdeu = False
+            elif jogadorPalpite == "P":
+                print("Você perdeu!")
+                perdeu = True
+            else:
+                print("Esse valor não existe! Tente novamente...")
