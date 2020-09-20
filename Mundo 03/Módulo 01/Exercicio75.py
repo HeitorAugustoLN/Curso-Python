@@ -4,14 +4,6 @@ terceiroValor = int(input("Digite mais um número: "))
 quartoValor = int(input("Digite o último número: "))
 
 tupla = (primeiroValor, segundoValor, terceiroValor, quartoValor)
-numerosPares = 0
-
-for numero in tupla:
-    if numero % 2 == 0:
-        numerosPares += 1
-        pass
-    pass
-
 quantidade9 = tupla.count(9)
 
 print(f"Você digitou os valores: {tupla}")
@@ -21,4 +13,7 @@ if tupla.count(3) > 0:
     print(f"O valor 3 apareceu na {posicao3}° posição")
 else:
     print("O valor 3 não apareceu nenhuma vez")
-print(f"Os valores pares digitados foram {numerosPares}")
+print(f"Os valores pares digitados foram ", end="")
+for numero in tupla:
+    if numero % 2 == 0:
+        print(numero, end=" ")
