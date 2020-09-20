@@ -24,7 +24,11 @@ numeros = (
 
 while True:
     numero = int(input("Digite um número entre 0 e 20: "))
+<<<<<<< HEAD
     if 0 <= numero <= 20:
+=======
+    if 0 <= numero < 20:
+>>>>>>> master
         print(f"Você digitou o número {numeros[numero]}")
 
         continuar = str(input("Você quer continuar? [S/N] ")).strip().upper()[0]
